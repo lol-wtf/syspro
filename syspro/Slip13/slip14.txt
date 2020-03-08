@@ -1,0 +1,6 @@
+MACRO 
+CALC &A,&B,&REG,&OP
+MOVER &REG, &A
+&OP   &REG, &B
+MOVEM &REG, &A
+MEND

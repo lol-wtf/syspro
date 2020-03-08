@@ -1,0 +1,7 @@
+MACRO
+INCR &X=,&Y=,&OP=ADD,&REG=AREG
+MOVER &REG,  &X
+&OP   &REG,  &Y
+MOVEM &REG,  &X
+MEND
+
